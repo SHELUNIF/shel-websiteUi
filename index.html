@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>SHEL U.I. SA DE CV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Estilos para el encabezado */
+        header {
+            background-image: url("img/header.jpg");
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+.titulo {
+            margin: 0;
+            font-size: 24px;
+        }
+
+
+        .logo {
+            width: 250px; /* Tamaño del logo */
+            height: auto;
+            margin-top: 10px; /* Espacio arriba del logo */
+        }
+
+                /* Estilos para la barra de navegación */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff9900; /* Color al pasar el mouse */
+        }
+
+        /* Estilos para las secciones */
+        section {
+            padding: 20px 40px;
+            margin-bottom: 40px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        /* Estilos para los productos */
+        .producto {
+            margin-bottom: 20px;
+        }
+
+        .producto h3 {
+            margin-top: 0;
+        }
+
+        .producto img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para el formulario de contacto */
+        form {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #ff9900; /* Color al pasar el mouse */
+        }
+
+        /* Estilos para el footer */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <h1 class="titulo">SHEL U.I. SA DE CV</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#vision">Visión</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>¡Bienvenido a Uniformes Industriales! Somos más que una empresa de uniformes; somos el socio confiable que proporciona soluciones de vestimenta industrial para empresas comprometidas con la seguridad y el profesionalismo en el lugar de trabajo. Descubre cómo nuestros uniformes pueden elevar la imagen y la seguridad de tu empresa.</p>
+        </section>
+        <section id="catalogo">
+            <h2>Catálogo</h2>
+            <p>Explora nuestra amplia gama de uniformes diseñados para satisfacer las necesidades de diversas industrias. Desde batas de laboratorio hasta equipos de protección personal, nuestros productos están fabricados con los más altos estándares de calidad y confort para garantizar el mejor rendimiento en el trabajo.</p>
+            <div class="producto">
+                <h3>Batas de Laboratorio en Oferta</h3>
+                <img src="img/bata.jpg" alt="Bata de Laboratorio">
+                <p>Compra ahora y obtén un 20% de descuento en todas nuestras batas de laboratorio. Oferta válida hasta fin de mes.</p>
+            </div>
+            <div class="producto">
+                <h3>Overoles de Seguridad</h3>
+                <img src="img/overol.jpg" alt="Overol de Seguridad">
+                <p>Nuestros overoles de seguridad están diseñados para ofrecer la máxima protección en ambientes industriales.</p>
+            </div>
+        </section>
+        <section id="mision">
+            <h2>Misión</h2>
+            <p>Nuestra misión es proporcionar uniformes de alta calidad que no solo protejan a los trabajadores, sino que también reflejen la profesionalidad y la identidad de cada empresa. Nos esforzamos por ofrecer soluciones que mejoren la seguridad y la confianza en el lugar de trabajo.</p>
+        </section>
+        <section id="vision">
+            <h2>Visión</h2>
+            <p>Nos visualizamos como líderes en el mercado de uniformes industriales, siendo reconocidos por nuestra innovación, calidad y compromiso con la satisfacción del cliente. Buscamos transformar la forma en que se perciben y utilizan los uniformes, siendo un catalizador para entornos laborales más seguros y productivos.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Contactarnos a través de:</p>
+            <ul>
+                <li>WhatsApp: <a href="https://wa.me/2216042908" target="_blank">2216042908</a></li>
+                <li>Facebook: <a href="https://facebook.com/profile.php?id=61559544020204" target="_blank">Tu Página de Facebook</a></li>
+            </ul>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="mas-visitado">
+            <h2>Más Visitado</h2>
+            <p>Descubre nuestros productos más visitados, seleccionados por nuestros usuarios.</p>
+            <div class="producto">
+                <h3>Overoles de Seguridad</h3>
+                <img src="img/overol.jpg" alt="Overol de Seguridad">
+                <p>Nuestros overoles de seguridad están diseñados para ofrecer la máxima protección en ambientes industriales.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 SHEL U.I. SA DE CV. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+```
+
+Este código coloca el título más cerca del encabezado y reduce la separación entre las secciones.
